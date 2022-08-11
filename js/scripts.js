@@ -1,4 +1,13 @@
-alert('Hello world');
+let pokemonList = [
+	{	name: 'Vulpix',
+		height: 0.6,
+		types: ['Fire']}
 
-var favoriteFood = 'ramen';
-document.write(favoriteFood);
+	{	name: 'Moltres',
+		height: 2,
+		types: ['Fire', 'Flying']}
+
+	{	name 'Doduo',
+		height: 1.4,
+		types: ['Flying', 'Fire']}
+];

@@ -1,10 +1,37 @@
 body {
 	font-family: 'Lexend', sans-serif;
 	font-weight: 400;
-  	font-size: 25px;
+	max-width: 80%;
 	/* Sets the font size to 16px */
 	line-height: 1;
 	/* Sets the line-height to 1.6 */
 	color: #000;
+}
+
+h1 {
+	font-size: 25px;
+	text-align: center;
+}
+
+li {
+	text-decoration: none;
+}
+
+.button-class {
+	background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
 }
 

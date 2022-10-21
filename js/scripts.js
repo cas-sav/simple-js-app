@@ -49,6 +49,7 @@ let pokemonRepository = (function () {
 	          detailsUrl: item.url
 	        };
 	        add(pokemon);
+	        console.log(pokemon);
 	      });
 	    }).catch(function (e) {
 	      console.error(e);
@@ -82,6 +83,7 @@ let pokemonRepository = (function () {
 
 	  function showDetails(pokemon) {
 		loadDetails(pokemon).then(function() {
+			console.log(pokemon);
 			showModal(pokemon);
 		})
 	  };

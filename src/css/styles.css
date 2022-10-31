@@ -41,7 +41,7 @@ li {
 	} 
 	
 	.pokemon-list {
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr;
 	}
 	
 	.modal-body {
@@ -68,7 +68,7 @@ li {
 	} 
 	
 	.pokemon-list {
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 	
 	.modal-body {
